@@ -1,52 +1,52 @@
 [
   {
     "id": 1,
-    "image": "/assets/images/goldengirls1.jpeg",
+    "image": "assets/images/goldengirls1.jpeg",
     "clicked": false
   },
   {
     "id": 2,
-    "image": "/assets/images/goldengirls2.jpeg",
+    "image": "assets/images/goldengirls2.jpeg",
     "clicked": false
   },  {
     "id": 3,
-    "image": "/assets/images/goldengirls3.jpeg",
+    "image": "assets/images/goldengirls3.jpeg",
     "clicked": false
   },  {
     "id": 4,
-    "image": "/assets/images/goldengirls4.jpeg",
+    "image": "assets/images/goldengirls4.jpeg",
     "clicked": false
   },  {
     "id": 5,
-    "image": "/assets/images/goldengirls5.jpeg",
+    "image": "assets/images/goldengirls5.jpeg",
     "clicked": false
   },  {
     "id": 6,
-    "image": "/assets/images/goldengirls6.jpeg",
+    "image": "assets/images/goldengirls6.jpeg",
     "clicked": false
   },  {
     "id": 7,
-    "image": "/assets/images/goldengirls7.jpeg",
+    "image": "assets/images/goldengirls7.jpeg",
     "clicked": false
   },  {
     "id": 8,
-    "image": "/assets/images/goldengirls8.jpeg",
+    "image": "assets/images/goldengirls8.jpeg",
     "clicked": false
   },  {
     "id": 9,
-    "image": "/assets/images/goldengirls9.jpeg",
+    "image": "assets/images/goldengirls9.jpeg",
     "clicked": false
   },  {
     "id": 10,
-    "image": "/assets/images/goldengirls10.jpeg",
+    "image": "assets/images/goldengirls10.jpeg",
     "clicked": false
   },  {
     "id": 11,
-    "image": "/assets/images/goldengirls11.jpeg",
+    "image": "assets/images/goldengirls11.jpeg",
     "clicked": false
   },  {
     "id": 12,
-    "image": "/assets/images/goldengirls12.jpeg",
+    "image": "assets/images/goldengirls12.jpeg",
     "clicked": false
   }
 ]

@@ -9,7 +9,7 @@
     "react-scripts": "1.1.4",
     "react-toastify": "^4.0.0-rc.4"
   },
-  "homepage": "https://github.com/kahonen/clickygame",
+  "homepage": "https://kahonen.github.io/click-game/",
   "scripts": {
     "deploy": "react-scripts build && gh-pages -d build",
     "start": "react-scripts start",
@@ -20,5 +20,8 @@
   "main": "index.js",
   "repository": "https://github.com/kahonen/clickygame.git",
   "author": "kahonen <kristin.ahonen@gmail.com>",
-  "license": "MIT"
+  "license": "MIT",
+  "devDependencies": {
+    "gh-pages": "^1.1.0"
+  }
 }
