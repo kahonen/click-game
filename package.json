@@ -1,0 +1,24 @@
+{
+  "name": "clickygame",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "cross-spawn": "^6.0.5",
+    "react": "^16.3.1",
+    "react-dom": "^16.3.1",
+    "react-scripts": "1.1.4",
+    "react-toastify": "^4.0.0-rc.4"
+  },
+  "homepage": "https://github.com/kahonen/clickygame",
+  "scripts": {
+    "deploy": "react-scripts build && gh-pages -d build",
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  },
+  "main": "index.js",
+  "repository": "https://github.com/kahonen/clickygame.git",
+  "author": "kahonen <kristin.ahonen@gmail.com>",
+  "license": "MIT"
+}
