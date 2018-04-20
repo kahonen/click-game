@@ -1,11 +1,12 @@
 import React, { Component } from "react";
 import GoldenCard from "./components/GoldenCard";
-import Wrapper from "./components/Wrapper";
+//import Wrapper from "./components/Wrapper";
+import Container from "./components/Container"
 import Jumbotron from "./components/Jumbotron";
 import Navbar from "./components/Navbar";
 import friends from "./friends.json";
 import "./App.css";
-import { toast } from 'react-toastify';
+import Notifications, {notify} from 'react-notify-toast';
 
 class App extends Component {
   state = {
@@ -21,9 +22,7 @@ class App extends Component {
       return clkimg.id === clickedID;
     })
     if(clickedIMG.clicked){
-      toast.error("Game OVER!", {
-        position: toast.POSITION.TOP_LEFT
-      });
+      notify.show("You already clicked that one! GAME OVER!", "error");
       this.resetArr()
       if(this.state.topscore < this.state.count){
         this.setState({topscore: this.state.count})
@@ -54,12 +53,14 @@ class App extends Component {
 
   render() {
     return (
-      <Wrapper>
+      <Container>
+        <Notifications />
         <Navbar
         count={this.state.count}
         topscore={this.state.topscore}
          />
         <Jumbotron />
+       
         {this.state.friends.map(friend => (
           <GoldenCard
             shuffleCards = {this.shuffleCards}
@@ -69,7 +70,8 @@ class App extends Component {
             handleClick={this.handleClick}
           />
         ))}
-      </Wrapper>
+       
+      </Container>
     );
   }
 }
